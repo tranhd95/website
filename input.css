@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply underline underline-offset-1 text-blue-500 hover:text-blue-900;
+  }
+
+  section {
+    @apply pt-5;
+  }
+
+  body {
+    font-family: "Ubuntu", sans-serif;
+    @apply font-light;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply font-semibold text-xl pb-4;
+  }
+  .icon {
+    @apply no-underline;
+  }
+  .icon > img:hover {
+    @apply opacity-70;
+  }
+  .hashtag {
+    @apply rounded-full shadow-md p-2 bg-gray-50;
+  }
+}
+
+.icon > img {
+  display: inline-block;
+  max-width: 2rem;
+  max-height: 2rem;
+}
