@@ -1,86 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Hai Duong Tran's personal website. He's interested in Machine Learning and Data Science.">
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <link href="./output.css" rel="stylesheet" />
-    <title>Hai Duong Tran's Website</title>
-  </head>
-  <body>
-    <div class="container mt-20 mx-auto p-4 lg:w-8/12 2xl:w-2/4">
-      <header>
-        <h1 class="font-extrabold text-6xl pb-4">Hai Duong "Čan" Tran</h1>
-        <p class="font-bold text-2xl pb-4">#Python #MachineLearning #DataScience #ComputerVision #NLP</p>
-      </header>
-      <div class="flex flex-col space-y-4 divide-y">
-        <section>
-          <h2 class="section-title">Professional experience</h2>
-            <ul class="list-inside ml-5">
-              <li class="mb-4">
-                <span class="font-semibold">ML Researcher</span> at <a href="https://www.seznam.cz" class="font-medium">Seznam.cz</a>
-                <p class="font-medium text-gray-500">Apr 2021 – now</p>
-                <ul class="list-inside list-disc ml-5">
-                  <li>Problem solving using <i>mainly</i> machine learning methods.</li>
-                  <li>Projects I've contributed to:</li>
-                    <ul class="list-inside list-[square] ml-5">
-                      <li>Search Query Correction (see <a href="Search Query Correction">blogpost</a>, unfortunately only in Czech)</li>
-                      <li>Information Extraction from websites</li>
-                      <li>Reverse Image Search</li>
-                    </ul>
-                  <li>Tech: Linux, Python, Pandas, Matplotlib, seaborn, scikit-learn, NumPy, SciPy, CatBoost, PyTorch, HuggingFace Transformers, and many more.</li>
-                </ul>
-              </li>
-              <li>
-                <span class="font-semibold">JavaScript Developer</span> at <a href="https://crp.kypo.muni.cz/" class="font-medium">KYPO</a>
-                <p class="font-medium text-gray-500">Oct 2017 – Jan 2019 (part-time)</p>
-                <ul class="list-inside list-disc ml-5">
-                  <li>Implementing custom data visualizations for cybersecurity games (CTFs).</li>
-                  <li>Tech: JavaScript, TypeScript, Angular 2, D3.js.</li>
-                </ul>
-              </li>
-            </ul >
-        </section>
 
-        <section>
-          <h2 class="section-title">Education</h2>
-          <p class="ml-5">I have completed both my master's and bachelor's degree at
-            <a href="https://www.muni.cz/en" class="font-medium">Masaryk University, Faculty of Informatics in Brno</span></a>.</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Hai Duong Tran's personal website. He's interested in Machine Learning and Data Science.">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link href="./output.css" rel="stylesheet" />
+  <title>Hai Duong Tran's Website</title>
+</head>
 
-          <ul class="list-inside ml-5 mt-5">
-            <li class="mb-4">
-              <span class="font-semibold">Master's: Machine Learning and Artificial Intelligence</span>
-              <p class="font-medium text-gray-500">2018–2021</p>
-            <li>
-              <span class="font-semibold">Bachelor's: Applied Informatics</span>
-              <p class="font-medium text-gray-500">2015–2018</p>
-              <ul class="list-inside list-disc ml-5">
-                <li>Dean's Award for final thesis</li>
+<body>
+  <div class="container mt-20 mx-auto p-4 lg:w-8/12 2xl:w-2/4">
+    <header>
+      <h1 class="font-extrabold text-6xl pb-4">Hai Duong "Čan" Tran</h1>
+      <p class="font-bold text-2xl pb-4">#Python #MachineLearning #DataScience #ComputerVision #NLP</p>
+    </header>
+    <div class="flex flex-col space-y-4 divide-y">
+      <section>
+        <h2 class="section-title">Professional experience</h2>
+        <ul class="list-outside ml-5">
+          <li class="mb-4">
+            <span class="font-semibold">ML Researcher</span> at <a href="https://www.seznam.cz"
+              class="font-medium">Seznam.cz</a>
+            <p class="font-medium text-gray-500">Apr 2021 – now</p>
+            <ul class="list-outside list-disc ml-9">
+              <li>Problem solving using <i>mainly</i> machine learning methods.</li>
+              <li>Being part of the whole research process (problem statement, data collection, data analysis, feature
+                engineering, model engineering, model evaluation, sometimes even model serving)</li>
+              <li>Projects I've contributed to:</li>
+              <ul class="list-outside list-[square] ml-9">
+                <li>Search Query Correction (see <a href="Search Query Correction">blogpost</a>, unfortunately only in
+                  Czech)</li>
+                <li>Information Extraction from websites (e.g. auto-extraction of job offers from company websites for
+                  <a href="https://www.volnamista.cz/">volnamista.cz</a>)</li>
+                <li>Reverse Image Search</li>
+                <li>Image Classification</li>
+                <li>Development of custom data annotation tools (React/Vue)</li>
               </ul>
-            </li>
-          </ul >
-        </section>
-        <section>
-          <div class="text-center flex justify-center space-x-4">
-            <a href="https://www.linkedin.com/in/hai-duong-tran/" class="icon font-medium">
-              <img src="./assets/linkedin.svg" alt="Hai Duong Tran's LinkedIn">
-              LinkedIn 
-            </a>
-            <a href="https://twitter.com/PhoBoAI" class="icon font-medium">
-              <img src="./assets/twitter.svg" alt="Hai Duong Tran's Twitter">
-              Twitter 
-            </a>
-            <a href="https://github.com/tranhd95" class="icon font-medium">
-              <img src="./assets/github.svg" alt="Hai Duong Tran's GitHub">
-              GitHub 
-            </a>
-          </div>
-        </section>
-      </div>
+              <li>ML Tech: Python, Pandas, Matplotlib, seaborn, scikit-learn, NumPy, SciPy, CatBoost, PyTorch,
+                HuggingFace Transformers, DVC, snakemake and many more.</li>
+              <li>Other tech: Linux, GitLab, YouTrack, Docker, JavaScript (TypeScript, React, Vue), ...</li>
+            </ul>
+          </li>
+          <li>
+            <span class="font-semibold">JavaScript Developer</span> at <a href="https://crp.kypo.muni.cz/"
+              class="font-medium">KYPO</a>
+            <p class="font-medium text-gray-500">Oct 2017 – Jan 2019 (part-time)</p>
+            <ul class="list-outside list-disc ml-9">
+              <li>Implementing custom data visualizations for cybersecurity games (CTFs).</li>
+              <li>Tech: JavaScript, TypeScript, Angular 2, D3.js.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="section-title">Education</h2>
+        <p class="ml-5">I have completed both my master's and bachelor's degree at
+          <a href="https://www.muni.cz/en" class="font-medium">Masaryk University, Faculty of Informatics in
+            Brno</span></a>.
+        </p>
+
+        <ul class="list-inside ml-5 mt-5">
+          <li class="mb-4">
+            <span class="font-semibold">Master's: Machine Learning and Artificial Intelligence</span>
+            <p class="font-medium text-gray-500">2018–2021</p>
+          <li>
+            <span class="font-semibold">Bachelor's: Applied Informatics</span>
+            <p class="font-medium text-gray-500">2015–2018</p>
+            <ul class="list-inside list-disc ml-5">
+              <li>Dean's Award for final thesis</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <div class="text-center flex justify-center space-x-4">
+          <a href="https://www.linkedin.com/in/hai-duong-tran/" class="icon font-medium">
+            <img src="./assets/linkedin.svg" alt="Hai Duong Tran's LinkedIn">
+            LinkedIn
+          </a>
+          <a href="https://twitter.com/PhoBoAI" class="icon font-medium">
+            <img src="./assets/twitter.svg" alt="Hai Duong Tran's Twitter">
+            Twitter
+          </a>
+          <a href="https://github.com/tranhd95" class="icon font-medium">
+            <img src="./assets/github.svg" alt="Hai Duong Tran's GitHub">
+            GitHub
+          </a>
+        </div>
+      </section>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
