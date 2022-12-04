@@ -1,0 +1,9 @@
+tranhd.eu {
+	root * /home/tranhd/Projects/website
+	file_server
+}
+
+www.tranhd.eu {
+	root * /home/tranhd/Projects/website
+	file_server
+}
