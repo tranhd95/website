@@ -39,7 +39,8 @@
                 <li>Search Query Correction (see <a href="Search Query Correction">blogpost</a>, unfortunately only in
                   Czech)</li>
                 <li>Information Extraction from websites (e.g. auto-extraction of job offers from company websites for
-                  <a href="https://www.volnamista.cz/">volnamista.cz</a>)</li>
+                  <a href="https://www.volnamista.cz/">volnamista.cz</a>)
+                </li>
                 <li>Reverse Image Search</li>
                 <li>Image Classification</li>
                 <li>Development of custom data annotation tools (React/Vue)</li>
@@ -82,7 +83,12 @@
         </ul>
       </section>
       <section>
+        <p class="text-center mb-3" id="email"></p>
         <div class="text-center flex justify-center space-x-4">
+          <a onclick="show_mail()" class="icon font-medium hover-click">
+            <img src="./assets/email.svg" title="Click to reveal email." alt="Hai Duong Tran's E-mail">
+            Email
+          </a>
           <a href="https://www.linkedin.com/in/hai-duong-tran/" class="icon font-medium">
             <img src="./assets/linkedin.svg" alt="Hai Duong Tran's LinkedIn">
             LinkedIn
@@ -99,6 +105,18 @@
       </section>
     </div>
   </div>
+  <script type="text/javascript">
+    function show_mail() {
+      const el = document.getElementById('email');
+      const email = document.createElement('p');
+      email.classList.add('font-bold');
+      email.innerHTML = 'tranhd95' + '_🌀_' + 'g' + 'mail.com';
+      const para = document.createElement('p');
+      para.innerHTML = "Replace _🌀_ with proper symbol. It's for spambot protection.";
+      el.appendChild(email);
+      el.appendChild(para);
+    }
+  </script>
 </body>
 
 </html>

@@ -37,3 +37,7 @@
   max-width: 2rem;
   max-height: 2rem;
 }
+
+.hover-click:hover {
+  cursor: pointer;
+}
